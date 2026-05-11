@@ -707,3 +707,32 @@ opacity: 0;
 -moz-transition: all 0.3s;
 transition: all 0.3s;
 }
+
+/* Floating WhatsApp (+91 950 001 5431) */
+.gleeserve-whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10050;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.gleeserve-whatsapp-float:hover,
+.gleeserve-whatsapp-float:focus {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+.gleeserve-whatsapp-float svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
