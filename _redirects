@@ -1,0 +1,6 @@
+# Repo-only files (notes, tooling, old builds): never part of the site
+/.github/* / 301
+/.gitignore / 301
+/CNAME / 301
+/README.md / 301
+/rename-prompt.md / 301
